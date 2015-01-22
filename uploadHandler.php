@@ -1,13 +1,13 @@
 <?php
-
+require('Uploader.php');
+include_once './Config.php';
 if (isset($_POST['fold1']))
     $upload_dir = $_POST['fold1'];
 if (isset($_GET['fold1']))
     $upload_dir = $_GET['fold1'];
-if (isset($upload_dir))
+if (empty($upload_dir))
     $upload_dir = "";
-require('Uploader.php');
-include_once './Config.php';
+
 
 $conf = new Config();
 $upload_dir = $conf->getBaseDir() . $upload_dir . "/";
