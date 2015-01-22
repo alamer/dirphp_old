@@ -1,0 +1,76 @@
+/* 
+    Created on : Jan 16, 2015, 8:55:13 AM
+    Author     : ivc_ShherbakovIV
+*/
+
+.bodystyle {
+    background-color: #E6E6E6;
+    font: small Arial, Helvetica, sans-serif;
+}
+.astyle {
+    font-weight: bold;
+    color: #0C98B6;
+    text-decoration: none;
+}
+.astyle:hover {
+    color: #D2551F;
+}
+table.tablestyl th a {
+    color: #48F8FF;
+}
+table.tablestyl th a:hover {
+    color: #FFF;
+}
+.tablestyle {
+    background-color: #FFF;
+    border: 1px solid #086978;
+    width: 90%;
+    margin: 0 auto;
+}
+table.tablestyle th {
+    background-color: #086978;
+    padding: 8px 2px;
+    color: #FFF;
+}
+table.tablestyle td {
+    border: 1px solid #086978;
+}
+.s1 {
+    background-color: #DFFFFF;
+}
+.s2 {
+    background-color: #EEF8F9;
+}
+.s1:hover,.s2:hover {
+    background-color: #FFF;
+}
+.w1 {
+    width: 5%;
+}
+.w2 {
+    text-align: left;
+}
+.w3 {
+    width: 10%;
+    text-align: right;
+}
+.w4 {
+    width: 20%;
+}
+.w5 {
+    width: 5%;
+}
+.w6 {
+    width: 5%;
+}            
+.ess {
+    color: #FFF;
+    padding-left: 5%;
+    vertical-align: middle;
+}
+
+
+.progress-wrap{float:left;clear:both}
+.progress-wrap .prog{clear:both;margin:10px 0;}
+.progress-wrap .prog .size{clear:both;height:21px;line-height:21px;vertical-align:middle;display:inline-block;padding-right:5px;text-overflow: ellipsis;white-space:nowrap;overflow:hidden;}
+.progress-wrap .prog .progress{height:21px;display:inline-block}
